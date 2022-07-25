@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SistemaNFC</string>
     <string name="underline"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="IniciarSesion">Iniciar Sesión</string>
 </resources>

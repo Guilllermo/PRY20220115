@@ -15,6 +15,7 @@
         <entry key="..\:/TDP/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/TDP/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register_administrador.xml" value="0.36666666666666664" />
         <entry key="..\:/TDP/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register_pasajero.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/barra_opciones.xml" value="0.3675" />
         <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/button_rounded.xml" value="0.3675" />
         <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/button_rounded_border.xml" value="0.3675" />
         <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/fondo_circular.xml" value="0.3275" />
@@ -28,6 +29,9 @@
         <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register.xml" value="0.2758152173913043" />
         <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register_administrador.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register_pasajero.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/menu/barra_menu_gestor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/menu/menu_gestor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/PRY20220115/SistemaNFC/app/src/main/res/menu/menu_pasajero.xml" value="0.365625" />
       </map>
     </option>
   </component>

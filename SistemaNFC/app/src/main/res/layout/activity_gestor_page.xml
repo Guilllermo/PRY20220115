@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -91,6 +91,7 @@
         android:layout_height="wrap_content"
         android:text="LÍNEAS AFILIADAS"
         app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        android:gravity="center"
         android:layout_marginTop="20sp"
         android:textSize="25sp"
         android:textColor="@color/black"
@@ -103,16 +104,224 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/textView1"
-        android:layout_marginTop="30sp"
+        android:layout_marginVertical="30sp"
+        android:layout_marginHorizontal="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        android:background="@color/white">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="70sp"
-        android:background="#000000"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMPRESA"
+                android:textStyle="bold"
+                android:background="#008000"
+                android:layout_marginStart="3sp"
+                android:layout_marginEnd="3sp"
+                android:layout_marginVertical="3sp"
+                android:textSize="18sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LÍNEA"
+                android:textStyle="bold"
+                android:background="#008000"
+                android:layout_marginVertical="3sp"
+                android:textSize="18sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUC"
+                android:textStyle="bold"
+                android:background="#008000"
+                android:layout_marginStart="3sp"
+                android:layout_marginEnd="3sp"
+                android:layout_marginVertical="3sp"
+                android:textSize="18sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los Chinos-ETUCHISA (Ruta A)"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1802"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20194541008"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Virgen de la Puerta-VIPUSA (Ruta A)"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8109"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20156930963"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urbanito-Satelite S.A."
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5601"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20106977608"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El Rápido S.A. (Ruta 5)"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="2sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8105"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20123356366"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="2sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+</TableLayout>

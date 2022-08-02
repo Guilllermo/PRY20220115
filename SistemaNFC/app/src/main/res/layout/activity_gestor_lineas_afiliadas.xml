@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterAdministrador"
@@ -77,236 +78,251 @@
         app:layout_constraintTop_toBottomOf="@id/linearLayout1">
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout5"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
         android:layout_width="match_parent"
         android:layout_height="40sp"
         android:background="#000000"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1sp"
         app:layout_constraintTop_toBottomOf="@id/linearLayout4">
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="70sp"
-        android:background="#000000"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+    </androidx.appcompat.widget.Toolbar>
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="24sp"
-        android:text="Nombres*"
+        android:text="LÍNEAS AFILIADAS"
+        app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato_bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <TextView
-        android:id="@+id/textView13"
+    <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="12sp"
-        android:text="Apellidos*"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tableLayout1"
+        android:layout_marginVertical="30sp"
+        android:layout_marginHorizontal="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        android:background="@color/white">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="12sp"
-        android:text="Correo*"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMPRESA"
+                android:textStyle="bold"
+                android:background="#008000"
+                android:layout_marginStart="3sp"
+                android:layout_marginEnd="3sp"
+                android:layout_marginVertical="3sp"
+                android:textSize="18sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPassword"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LÍNEA"
+                android:textStyle="bold"
+                android:background="#008000"
+                android:layout_marginVertical="3sp"
+                android:textSize="18sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="12sp"
-        android:text="Contraseña*"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUC"
+                android:textStyle="bold"
+                android:background="#008000"
+                android:layout_marginStart="3sp"
+                android:layout_marginEnd="3sp"
+                android:layout_marginVertical="3sp"
+                android:textSize="18sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPassword"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los Chinos-ETUCHISA (Ruta A)"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="12sp"
-        android:text="Confirmar Contraseña*"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1802"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20194541008"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="12sp"
-        android:text="Dirección*"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Virgen de la Puerta-VIPUSA (Ruta A)"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="match_parent"
-        android:layout_height="26sp"
-        android:layout_marginStart="32sp"
-        android:layout_marginEnd="32sp"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8109"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="12sp"
-        android:text="N° Celular*"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20156930963"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32sp"
-        android:layout_marginTop="24sp"
-        android:layout_marginEnd="32sp"
-        android:background="@drawable/button_rounded"
-        android:text="Registrarse"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urbanito-Satelite S.A."
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
 
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24sp"
-        android:text="Acepto Políticas de Privacidad"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5601"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
 
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Acepto Términos y Condiciones"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20106977608"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="1sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El Rápido S.A. (Ruta 5)"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="2sp"
+                android:textSize="13sp"
+                android:layout_weight="3"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8105"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20123356366"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginBottom="2sp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+</TableLayout>

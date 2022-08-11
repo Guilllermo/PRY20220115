@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterAdministrador"
+    android:background="#51D1F6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8sp"
+                android:layout_marginTop="3sp"
+                android:layout_marginEnd="3sp"
+                android:layout_marginBottom="3sp"
+                android:orientation="horizontal"
+                android:background="@drawable/fondo_circular">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3sp"
+                    android:layout_marginTop="3sp"
+                    android:layout_marginEnd="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:src="@drawable/user"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USER#324 (ADMIN)"
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130sp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/autobuspequeno"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#51D1F6"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1sp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout1">
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#000000"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout4">
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUEJAS Y SUGERENCIAS"
+        app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:background="@drawable/fondo_quejas_sugerencias1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginVertical="3sp"
+                android:background="@drawable/fondo_quejas_sugerencias2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10sp"
+                    android:layout_marginTop="7sp"
+                    android:text="Usuario#334"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10sp"
+                    android:justificationMode="inter_word"
+                    android:text="Aquí probando la aplicación, en el registro es sencillo. Lo único que el tutorial se me hizo molesto al principio. Lo bueno que en el momento que lo instalé me dieron s/2 gratis por la instalación de la aplicación. Además que te permite ver tu saldo y tus pagos y horas. Sería bueno que mejoren en mostrar los PARADEROS con un croquis. Gracias. :)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10sp"
+                    android:text="RESPONDER" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3sp"
+                android:layout_marginVertical="3sp"
+                android:background="@drawable/fondo_quejas_sugerencias2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10sp"
+                    android:layout_marginTop="7sp"
+                    android:text="Usuario#334"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10sp"
+                    android:justificationMode="inter_word"
+                    android:text="Aquí probando la aplicación, en el registro es sencillo. Lo único que el tutorial se me hizo molesto al principio. Lo bueno que en el momento que lo instalé me dieron s/2 gratis por la instalación de la aplicación. Además que te permite ver tu saldo y tus pagos y horas. Sería bueno que mejoren en mostrar los PARADEROS con un croquis. Gracias. :)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10sp"
+                    android:text="RESPONDER" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="20sp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/button_rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whatsapp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="5sp"
+            android:background="@drawable/button_rounded">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  WhatsApp  "
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20sp"> </TextView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

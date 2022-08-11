@@ -3,8 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/bordes_negros.xml" value="0.328" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/button_rounded.xml" value="0.328" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/button_rounded_border.xml" value="0.328" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/fondo_quejas_sugerencias1.xml" value="0.328" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/drawable/fondo_quejas_sugerencias2.xml" value="0.328" />
         <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_gestor_estadisticas.xml" value="0.358695652173913" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_gestor_lineas_afiliadas.xml" value="0.276268115942029" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_gestor_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_gestor_quejas_sugerencias.xml" value="0.36666666666666664" />
         <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_nueva_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_pasajero_mapa_rutas.xml" value="0.365625" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_pasajero_page.xml" value="0.276268115942029" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_recuperar_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register.xml" value="0.276268115942029" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register_administrador.xml" value="0.276268115942029" />
+        <entry key="..\:/GitHub/PRY20220115/SistemaNFC/app/src/main/res/layout/activity_register_pasajero.xml" value="0.36666666666666664" />
         <entry key="..\:/TDP/PRY20220115/SistemaNFC/app/src/main/res/drawable-v24/button_rounded.xml" value="0.1" />
         <entry key="..\:/TDP/PRY20220115/SistemaNFC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/TDP/PRY20220115/SistemaNFC/app/src/main/res/drawable/button_rounded.xml" value="0.1" />

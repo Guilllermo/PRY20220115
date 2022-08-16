@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51D1F6">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETALLE DE LA TARJETA"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="76dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imglinecard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="10sp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/linecard"
+                app:layout_constraintTop_toBottomOf="@id/textView1"
+                tools:layout_editor_absoluteX="146dp" />
+
+            <LinearLayout
+                android:id="@+id/layoutprincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/imglinecard">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginStart="50sp"
+                    app:layout_constraintTop_toBottomOf="@id/layoutprincipal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:text="N° TARJETA:"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginTop="45sp"
+                        android:layout_marginEnd="64sp"
+                        android:background="@color/black"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:text="SALDO ACTUAL:"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginTop="45sp"
+                        android:layout_marginEnd="64sp"
+                        android:background="@color/black"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:text="TOTAL GASTADO:"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginTop="45sp"
+                        android:layout_marginEnd="64sp"
+                        android:background="@color/black"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

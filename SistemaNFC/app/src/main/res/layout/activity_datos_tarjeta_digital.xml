@@ -7,19 +7,20 @@
     android:layout_height="match_parent"
     android:background="#51D1F6">
 
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="DETALLE DE LA TARJETA"
-                android:textColor="@color/black"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="55dp"
-                tools:layout_editor_absoluteY="76dp">
-            </TextView>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1sp"
+        android:text="DETALLE DE LA TARJETA"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="77dp">
+    </TextView>
 
-            <ImageView
+    <ImageView
                 android:id="@+id/imglinecard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
